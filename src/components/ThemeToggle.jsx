@@ -38,7 +38,7 @@ export const ThemeToggle = () => {
 
     return (
         <button onClick={toggleTheme}
-                className={cn("fixed top-4 right-2 max-sm:left-1/2 max-sm:right-auto max-sm:transform max-sm:translate-x-1/2 z-50 p-2 rounded-full transition-colors duration-300", // max-sm:hidden
+                className={cn("fixed top-4 right-2 z-10 max-sm:left-1/2 max-sm:right-auto max-sm:transform max-sm:translate-x-1/2 p-2 rounded-full transition-colors duration-300", // max-sm:hidden
                               "focus:outline-hidden")}
         >{isDarkMode ? (
         <Sun className="h-6 w-6 text-yellow-300"/>
